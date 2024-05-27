@@ -1,0 +1,98 @@
+.heading{
+    background-color: red;
+    border: 5px solid;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    padding: 10px;
+    border-radius: 40px;
+    border-color: black;
+    display: inline-block;
+}
+/* Element Selectors */
+h1{
+color: brown;
+font-size: 100px;
+background-color: rgb(141, 173, 201);
+border: 5px;
+border-style: solid;
+border-color: rgb(42, 18, 13);
+
+}
+body{
+    background-image:url("asset/1.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Class selectors */
+.fun{
+    color: aqua;
+    font-size: 100px;
+    border-radius: 20px;
+}
+/* ID selectors  */
+
+#content{
+
+    color: aquamarine;
+    font-size: 100px;
+}
+/* universal selectors */
+*{
+    /* text-align: right; */
+}
+p{
+    display: inline-block;;
+    text-align: center;
+    font-size:100px ;
+}
+.div{
+    height: 200px;
+    width: 500px;
+    background-color: red;
+    border-radius: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.cursor{
+    height: 400px;
+    width: 800px;
+    background-color: rgb(0, 255, 106);
+    border-radius: 30px;
+}
+
+.cursorType{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(213, 33, 33);
+    border-radius: 10px;
+    display: inline-flex;
+    margin: 60px;
+}
+
+img{
+  float: inline-end;  
+}
+
+#para{
+    font-size: 40px;
+    text-align: left;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 110%;
+    margin: 30px;
+}
+
+#btn{
+    background-color: bisque;
+    border-radius: 30px;
+    padding: 40px;
+    display: grid;
+
+}
+#btn:hover{ 
+
+    background-color: brown;
+}
