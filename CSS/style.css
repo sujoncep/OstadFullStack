@@ -1,4 +1,5 @@
 .heading{
+    alignments: center;
     background-color: red;
     border: 5px solid;
     color: white;
@@ -95,4 +96,30 @@ img{
 #btn:hover{ 
 
     background-color: brown;
+}
+
+.image{
+height: 500px;
+width: auto;
+filter: blur(2px);
+filter: drop-shadow(10px 10px);
+filter: opacity(70%);
+filter: grayscale(20%);
+
+}
+.overflow{
+    height: 200px;
+    width: 500px;
+    font-size: 20px;
+    overflow:auto;
+}
+.overflow2{
+    height: 200px;
+    width:200px;
+    overflow-y: auto;
+}
+.wordrap{
+    width: 400px;
+    border: 4px solid black;
+    font-size: 30px;
 }
