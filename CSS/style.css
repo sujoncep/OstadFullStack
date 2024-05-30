@@ -1,3 +1,8 @@
+:root{
+    --colorPrimary:red;
+    font-size: 40px;
+}
+
 .heading{
     alignments: center;
     background-color: red;
@@ -122,4 +127,15 @@ filter: grayscale(20%);
     width: 400px;
     border: 4px solid black;
     font-size: 30px;
+}
+.justyfy{
+display: flex;
+justify-content: space-evenly;
+
+}
+.text{
+    text-decoration: double;
+    letter-spacing:5px ;
+    word-spacing:14px ;
+    color: var(--colorPrimary);
 }
